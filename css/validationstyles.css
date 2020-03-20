@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Roboto&display=swap');
+body{
+    /* color: royalblue; */
+    /* font-family: 'Roboto', sans-serif; */
+font-family: 'Baloo 2', cursive;
+}
+h1{
+    color: #fff;
+}
+input{
+    margin: 5px;
+}
+.main{
+    margin-top: -2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.jumbotron{
+    background-image: url('/images/c4.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    
+}
+h2{
+    color: royalblue;
+}
+input.valid{
+    border-color: #36cc36;
+}
+
+input.invalid{
+    border-color: orange;
+}
+input + p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+    opacity: 0;
+    height: 0;
+
+}
+
+input.invalid + p {
+    opacity: 1;
+    /* height: auto;
+    margin-bottom: 20px; */
+}
