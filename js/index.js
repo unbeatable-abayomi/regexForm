@@ -41,7 +41,7 @@ console.log(password_2);
 
 
 function validatedDateOfBith(e){
-    const dateOfBirthRegex = /^(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)dd$/;
+    const dateOfBirthRegex = /^([0]?[1-9]|[1|2][0-9]|[3][0|1])[./]([0]?[1-9]|[1][0-2])[./]([0-9]{4}|[0-9]{2})$/;
     // const dateOfBirthRegex =  /^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}$/;
     let pattern = new RegExp(dateOfBirthRegex, "i")
     let checkDateOfBirth =  e.target.value;
